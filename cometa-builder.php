@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Cometa Builder
-Description: Abre uma sidebar com efeito slide no Elementor usando o atalho "Ctrl + Alt + 0".
+Description: Abre uma sidebar com efeito slide no Elementor.
 Version: 1.0
 Author: Seu Nome
 */
@@ -21,11 +21,11 @@ function cometa_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'cometa_enqueue_scripts' );
 
 // Include update checker
-require 'plugin-update-checker/plugin-update-checker.php';
+require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
 use Puc_v4_Factory;
 
 $update_checker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/CometaMarketing/cometa-builder/',
+    'https://github.com/CometaMarketing/cometa-builder/', // URL do repositório GitHub
     __FILE__,
     'cometa-builder'
 );
