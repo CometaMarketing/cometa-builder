@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cometa Builder
 Description: Abre uma sidebar com efeito slide no Elementor.
-Version: 1.0
+Version: 1.1
 Author: Seu Nome
 */
 
@@ -21,7 +21,7 @@ function cometa_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'cometa_enqueue_scripts' );
 
 // Include update checker
-require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
+require plugin_dir_path(__FILE__) . 'plugin-update-checker-master/plugin-update-checker.php';
 use Puc_v4_Factory;
 
 $update_checker = Puc_v4_Factory::buildUpdateChecker(
