@@ -1,9 +1,11 @@
 <?php
 /*
 Plugin Name: Cometa Builder
-Description: Abre uma sidebar com efeito slide no Elementor.
-Version: 1.0
-Author: Seu Nome
+Description: Crie páginas em muito menos tempo!
+Version: 1.1
+Author: Gedi Caldeira
+Author URI: https://www.cometamarketing.com.br
+Plugin URI: https://www.cometamarketing.com.br/cometa-builder
 */
 
 // Exit if accessed directly
