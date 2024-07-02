@@ -2,7 +2,7 @@
 /*
 Plugin Name: Cometa Builder
 Description: Crie páginas em menos tempo com a Cometa Builder para Elementor!
-Version: 1.5
+Version: 1.6
 Author: Gedi Caldeira
 Author URI: https://www.cometamarketing.com.br
 Plugin URI: https://www.cometamarketing.com.br/plugin-cometa-builder
