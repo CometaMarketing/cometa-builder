@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
         $('body').append(`
             <div id="cometa-sidebar">
                 <div id="cometa-toggle-bar">⧽</div>
-                <iframe src="https://cometamarketing.com.br/biblioteca-cometa-builder/" style="width: 100%; height: 100%; border: none;"></iframe>
+                <iframe src="https://buider.cometamarketing.com.br/biblioteca" style="width: 100%; height: 100%; border: none;"></iframe>
             </div>
         `);
     }
